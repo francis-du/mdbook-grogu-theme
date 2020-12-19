@@ -8,8 +8,8 @@
 
 <table xmlns="http://www.w3.org/1999/html">
 	<tr >
-	    <td><img src="docs/images/grogu1.gif"></td> 
-        <td><img src="docs/images/grogu2.gif"></td>
+	    <td><img src="docs/src/images/grogu1.gif"></td> 
+        <td><img src="docs/src/images/grogu2.gif"></td>
 	</tr>
 </table>
 
@@ -19,8 +19,8 @@
 
 <table xmlns="http://www.w3.org/1999/html">
 	<tr >
-	    <td><img src="docs/images/grogu3.gif"></td> 
-        <td><img src="docs/images/grogu4.gif"></td>
+	    <td><img src="docs/src/images/grogu3.gif"></td> 
+        <td><img src="docs/src/images/grogu4.gif"></td>
 	</tr>
 </table>
 
