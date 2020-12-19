@@ -5,7 +5,7 @@
 ```shell
 mdbook init 
 
-mkdir themee && cd theme 
+mkdir theme && cd theme
  
 git clone https://github.com/francis-du/mdbook-grogu-theme
  
