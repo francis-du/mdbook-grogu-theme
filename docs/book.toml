@@ -10,6 +10,7 @@ src = "src"
 edition = "2018"
 
 [output.html]
+cname = "grogu-theme.francis.run"
 default-theme = "grogu"
 mathjax-support = true
 git-repository-url = "https://github.com/francis-du/mdbook-grogu-theme"
