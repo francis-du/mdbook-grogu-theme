@@ -1,0 +1,24 @@
+name: Docs-Deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy_doc:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: 'latest'
+
+      - run: mdbook build docs
+
+      - name: Deploy Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{secrets.DEPLOY_KEY}}
+          publish_dir: ./docs/book

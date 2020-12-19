@@ -1,0 +1,28 @@
+[book]
+title = "MDBook Grogu Theme"
+authors = ["francis-du"]
+language = "en"
+multilingual = false
+src = "src"
+
+
+[rust]
+edition = "2018"
+
+[output.html]
+default-theme = "grogu"
+mathjax-support = true
+git-repository-url = "https://github.com/francis-du/mdbook-grogu-theme"
+
+[output.html.playground]
+editable = false
+line-numbers = false
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
