@@ -187,26 +187,25 @@
 </table>
 <h1><a class="header" href="#how-to-use" id="how-to-use">How to use</a></h1>
 <ul>
-<li>Clone theme</li>
+<li>Init</li>
 </ul>
-<pre><code class="language-shell">mdbook init 
-
-mkdir theme &amp;&amp; cd theme
- 
-git clone https://github.com/francis-du/mdbook-grogu-theme
- 
-rm -rf .gitignore README.md LICENSE docs/* .github/*
-</code></pre>
+<p>run <code>mdbook init</code></p>
 <ul>
-<li>modify <code>book.toml</code></li>
+<li>Config book.toml</li>
 </ul>
 <pre><code class="language-shell">[output.html]
+theme = &quot;grogu&quot;
 default-theme = &quot;grogu&quot;
-
-mdbook serve
 </code></pre>
 <ul>
-<li>Live demo</li>
+<li>Clone theme</li>
+</ul>
+<pre><code class="language-shell">mkdir theme &amp;&amp; cd theme
+
+git clone https://github.com/francis-du/mdbook-grogu-theme grogu
+</code></pre>
+<ul>
+<li><a href="https://grogu-theme.francis.run">Live demo</a></li>
 </ul>
 <pre><code class="language-shell">https://grogu-theme.francis.run
 </code></pre>

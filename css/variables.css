@@ -10,7 +10,7 @@
 /* Themes */
 .grogu {
     --bg: #c6ebc9;
-    --fg: #ffffff;
+    --fg: #4b5452;
 
     --sidebar-bg: #70af85;
     --sidebar-fg: #f0e2d0;;
@@ -32,7 +32,6 @@
     --theme-hover: #c6ebc9;
 
     --quote-bg: #f1f1f1;
-    --quote-fg: #70af85;
     --quote-border: #c6ebc9;
 
     --table-border-color: #ffffff;
