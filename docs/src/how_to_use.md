@@ -1,27 +1,26 @@
 # How to use
 
-- Clone theme
+- Init
 
-```shell
-mdbook init 
+run `mdbook init`
 
-mkdir theme && cd theme
- 
-git clone https://github.com/francis-du/mdbook-grogu-theme
- 
-rm -rf .gitignore README.md LICENSE docs/* .github/*
-```
-
-- modify `book.toml`
+- Config book.toml
 
 ```shell
 [output.html]
+theme = "grogu"
 default-theme = "grogu"
-
-mdbook serve
 ```
 
-- Live demo
+- Clone theme
+
+```shell
+mkdir theme && cd theme
+
+git clone https://github.com/francis-du/mdbook-grogu-theme grogu
+```
+
+- [Live demo](https://grogu-theme.francis.run)
 
 ```shell
 https://grogu-theme.francis.run
